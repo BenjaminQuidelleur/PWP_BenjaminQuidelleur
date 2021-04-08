@@ -13,7 +13,13 @@ __Remember to include all required documentation and HOWTOs, including how to cr
 file ORM/db0.sql
 
 Dependencies : 
+Install Laragon/we  used composer to deal with all dependencies. 
 
-Database : MySQL   version : 
+Database : MySQL   version : mysql Ver 14.14 Distrib 5.7.19 for Win64 (x86_64)
 
+Instructions how to setup the database framework and external libraries: 
+We used Laravel with Laragon
 
+Instructions on how to setup and populate the database:
+
+Instruction on how to run the tests of your database:
