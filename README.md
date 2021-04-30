@@ -27,11 +27,11 @@ Instruction on how to run the tests of your database:
 
 ## Usage
 # Installing dependencies
-* (Install virtualenv) (virtualenv is not in requirements) (in case with problems on Windows, try first installing with)
+* (Install virtualenv) (virtualenv is not in requirements) (in case with problems on Windows, try first installing with): 
   python -m pip install virtualenv --user
-* Activate python virtual environment in command line
+* Activate python virtual environment in command line: 
   virtualenv pwp
-* install dependencies
+* install dependencies: 
   pip install -r requirements.txt
-* Run the API
+* Run the API: 
   flask run
