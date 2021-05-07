@@ -8,21 +8,6 @@
 __Remember to include all required documentation and HOWTOs, including how to create and populate the database, how to run and test the API, the url to the entrypoint and instructions on how to setup and run the client__
 
 
-# ORM
-
-file ORM/db0.sql
-
-Dependencies : 
-Install Laragon/we  used composer to deal with all dependencies. 
-
-Database : MySQL   version : mysql Ver 14.14 Distrib 5.7.19 for Win64 (x86_64)
-
-Instructions how to setup the database framework and external libraries: 
-We used Laravel with Laragon
-
-Instructions on how to setup and populate the database:
-
-Instruction on how to run the tests of your database:
 
 
 ## Usage
@@ -39,7 +24,12 @@ Instruction on how to run the tests of your database:
 ## Database population 
 the method db_populate is included in both tests
 
+## Database testing
+go in the folder ORM
+run pytest
+the database is populated at the beginning of the test file.
 
-## Testing
-DB testing: pytest db_test.py
+
+## API Testing
+
 API testing: stadium_test.py
