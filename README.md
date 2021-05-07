@@ -35,3 +35,11 @@ Instruction on how to run the tests of your database:
   pip install -r requirements.txt
 * Run the API: 
   flask run
+  
+## Database population 
+the method db_populate is included in both tests
+
+
+## Testing
+DB testing: pytest db_test.py
+API testing: stadium_test.py
