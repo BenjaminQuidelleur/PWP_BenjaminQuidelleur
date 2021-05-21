@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>In-Stadium App</title>
+  <link rel="stylesheet" type="text/css" href="static/css/client.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="static/scripts/client.js"></script>
+</head>
+<body onLoad="GetArtists()">
+
+<form class="form-box" action="javascript:void(0);">
+  <h1>In-Stadium</h1>
+  <div class="form-input-material">
+    <input type="text" name="in1" id="in1" placeholder=" " autocomplete="off" class="form-control-material"/>
+    <label for="in1">get albums</label>
+  </div>
+  <div class="form-input-material">
+    <input type="text" name="in2" id="in2" placeholder=" " autocomplete="off" class="form-control-material"/>
+    <label for="in2">delete choreography</label>
+  </div>
+   <div class="form-input-material">
+  <input type="text" name="in3" id="in3" placeholder=" " autocomplete="off" class="form-control-material"/>
+    <label for="in3">edit artist</label>
+  </div>
+  <div class="form-input-material">
+    <input type="text" name="in4" id="in4" placeholder=" " autocomplete="off" class="form-control-material"/>
+    <label for="in4">add choreography</label>
+  </div>
+  <button type="submit" class="btn btn-primary btn-ghost">fetch</button>
+  <button type="submit" class="btn btn-primary btn-ghost">reset</button>
+  <button type="submit" class="btn btn-primary btn-ghost">refresh</button>
+
+</form>
+<table width="1450">
+      <td width="450">
+        <table width="437" id="Main">
+          <tr>
+            <td width="270"><b>Question:</b></td>
+            <td><b>Name: </b></td>
+            <td width="60"></td>
+          </tr>
+          <tr>
+            <td><input class="input" type="text" id="add_question" /></td>
+            <td><input class="input" type="text" id="add_qauthor" /></td>
+            <td><button class="button" onclick="addQuestion()">Add Question</button></td>
+          </tr>
+        </table>
+      </td>
+      <td id="align">
+        <table width="454" id="_answer"></table>
+      </td>
+      <td></td>
+    </table>
+    <table id="Second" width="1450">
+      <tr>
+        <td valign="top" width="450" id="align">
+          <div id="artists"></div>
+        </td>
+        <td valign="top" width="450" id="align">
+          <div id="artist"></div>
+        </td>
+        <td valign="top" width="500" id="align">
+          <div id="answer"></div>
+        </td>
+      </tr>
+    </table>
+
+</body>
+</html>
